@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - This program prints the size of various data types on the system.
- * return 0 program executed successfully
+ * main : This program prints the size of various data types on the system.
+ * Return : 0 program executed successfully
  */
 int main(void)
 {
