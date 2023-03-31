@@ -9,17 +9,15 @@
 
 void reverse_array(int *a, int n)
 {
-int i;
+	int i, b, temp;
 
-i = n - 1;
-while (i >= 0)
-{
-if (i != (n - 1))
-{
-printf(", ");
-}
-printf("%d", a[i]);
-i--;
-}
-printf("\n");
+	for (i = 0; i < n - 1; i++)
+	{
+		for (b = i + 1; b > 0; b--)
+		{
+			temp = *(a + b);
+			*(a + b) = *(a + (b - 1));
+			*(a + (b - 1)) = temp;
+		}
+	}
 }
