@@ -2,7 +2,7 @@
 #define DOG_H
 
 /*got_t - typedef for strcut dog*/
-typedef struct dog got_t;
+typedef struct dog dog_t;
 
 /**
 	* struct dog - stores dogs informations
