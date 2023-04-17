@@ -1,6 +1,5 @@
-#ifndef _FUNCTION_LIKE_MACRO_
-#define _FUNCTION_LIKE_MACRO_
-
-#define ABS(x, y) ((x)+(y))
+#ifndef MY_HEADER_FILE_H
+#define MY_HEADER_FILE_H
+#define SUM(x, y) ((x) + (y))
 
 #endif
