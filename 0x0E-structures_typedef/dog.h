@@ -1,6 +1,9 @@
 #ifndef DOG_H
 #define DOG_H
 
+/*got_t - typedef for strcut dog*/
+typedef struct dog got_t;
+
 /**
 	* struct dog - stores dogs informations
 	* @name : stores dog's name
