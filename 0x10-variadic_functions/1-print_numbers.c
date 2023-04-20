@@ -1,11 +1,12 @@
- #include "variadic_functions.c"
+#include "variadic_functions.c"
+#include <stdio.h>
 
- /**
- * print_numbers - print nubers followed by a new line
- * @separator : a constant string separing intigers
- * @n : nuber of intigers
- * Return: Always (0)
- */
+/**
+* print_numbers - print nubers followed by a new line
+* @separator : a constant string separing intigers
+* @n : nuber of intigers
+* Return: Always (0)
+*/
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
