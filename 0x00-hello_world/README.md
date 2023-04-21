@@ -4,19 +4,19 @@
 
 ### In this project, I learned:
 
-[&check;] Why C programming is awesome.
-&check; Who invented C.
-&check; Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds.
-&check; What happens when you type gcc main.c.
-&check; What is an entry point.
-&check; What is main.
-&check; How to print text using printf, puts and putchar.
-&check; How to get the size of a specific type using the unary operator sizeof.
-&check; How to compile using gcc.
-&check; What is the default program name when compiling with gcc.
-&check; What is the official C coding style and how to check your code with betty-style.
-&check; How to find the right header to include in your source code when using a standard library function.
-&check; How does the main function influence the return value of the program.
+&check; Why C programming is awesome.<br>
+&check; Who invented C.<br>
+&check; Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds.<br>
+&check; What happens when you type gcc main.c.<br>
+&check; What is an entry point.<br>
+&check; What is main.<br>
+&check; How to print text using printf, puts and putchar.<br>
+&check; How to get the size of a specific type using the unary operator sizeof.<br>
+&check; How to compile using gcc.<br>
+&check; What is the default program name when compiling with gcc.<br>
+&check; What is the official C coding style and how to check your code with betty-style.<br>
+&check; How to find the right header to include in your source code when using a standard library function.<br>
+&check; How does the main function influence the return value of the program.<br>
 
 ## Requierements :page_with_curl:
 
