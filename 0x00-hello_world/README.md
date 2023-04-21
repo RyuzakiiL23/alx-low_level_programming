@@ -1,4 +1,4 @@
-# C - Hello, World
+# C - Hello, World &#x1F44B;
 
 ## Learning Objectives :heavy_check_mark:
 
