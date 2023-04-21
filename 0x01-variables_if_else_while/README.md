@@ -1,4 +1,4 @@
-# C - Variables, if, else, while (U+1F4A1)
+# C - Variables, if, else, while &#x1F4A1;
 
 ## Learning Objectives :heavy_check_mark:
 
