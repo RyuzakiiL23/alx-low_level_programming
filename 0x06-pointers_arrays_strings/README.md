@@ -1,4 +1,4 @@
-# C - More pointers_arrays_strings :heavy_plus_sign: &#x1F449;
+# C - pointers_arrays_strings &#x1F449;
 
 ## Learning Objectives :heavy_check_mark:
 
