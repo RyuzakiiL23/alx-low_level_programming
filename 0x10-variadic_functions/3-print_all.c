@@ -1,11 +1,9 @@
 #include "variadic_functions.h"
-typedef struct printer
-{
-	char *symbol;
-	void (*print)(va_list arg);
 
-} printer_t;
-
+/**
+ * print_i - Prints a char.
+ *@arg: A va_list containing the argument to print
+ */
 void print_i(va_list arg)
 {
 	int n;
@@ -13,7 +11,10 @@ void print_i(va_list arg)
 	n = va_arg(arg, int);
 	printf("%d", n);
 }
-
+/**
+ * print_c - Prints an int.
+ * @arg: A va_list containing the argument to print
+ */
 void print_c(va_list arg)
 {
 	char c;
@@ -21,7 +22,10 @@ void print_c(va_list arg)
 	c = va_arg(arg, int);
 	printf("%c", c);
 }
-
+/**
+ * print_s - Prints a string.
+ * @arg: A va_list containing the argument to print
+ */
 void print_s(va_list arg)
 {
 	char *s;
@@ -36,7 +40,10 @@ void print_s(va_list arg)
 
 	printf("%s", s);
 }
-
+/**
+* print_f - prints a float
+* @arg: A va_list containing the argument to print
+*/
 void print_f(va_list arg)
 {
 	float f;
@@ -44,6 +51,12 @@ void print_f(va_list arg)
 	f = va_arg(arg, double);
 	printf("%f", f);
 }
+
+/**
+* print_all - print all variables followed by a new line
+* @format : is a list of types of arguments passed to the function
+* Return: void
+*/
 
 	void print_all(const char * const format, ...)
 {
