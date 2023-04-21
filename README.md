@@ -18,7 +18,7 @@
 &check; How to find the right header to include in your source code when using a standard library function.<br>
 &check; How does the main function influence the return value of the program.<br>
 
-# C - Variables, if, else, while &#x1F4A1;
+# [C - Variables, if, else, while](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x01-variables_if_else_while) &#x1F4A1;
 
 ## Learning Objectives :heavy_check_mark:
 
@@ -40,7 +40,7 @@
 &check; What is the ASCII character set<br>
 &check; What are the purpose of the gcc flags -m32 and -m64<br>
 
-# C - Functions, nested loops &#128257;
+# [C - Functions, nested loops](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x02-functions_nested_loops) &#128257;
 
 ## Learning Objectives :heavy_check_mark:
 
@@ -54,7 +54,7 @@
 &check; What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89<br>
 &check; What are header files and how to to use them with #include<br>
 
-# C - Debugging :duck:
+# [C - Debugging](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x03-debugging) :duck:
 
 ## Learning Objectives :heavy_check_mark:
 
@@ -64,7 +64,7 @@
 &check; What are some methods of debugging manually<br>
 &check; How to read the error messages<br>
 
-# C - More_functions_nested_loops :heavy_plus_sign: &#128257;
+# [C - More_functions_nested_loops](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops) :heavy_plus_sign: &#128257;
 
 ## Learning Objectives :heavy_check_mark:
 
@@ -78,7 +78,7 @@
 &check; What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89<br>
 &check; What are header files and how to to use them with #include<br>
 
-# C - Pointers_arrays_strings &#x1F449;
+# [C - Pointers_arrays_strings](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings) &#x1F449;
 
 ## Learning Objectives :heavy_check_mark:
 
@@ -90,7 +90,7 @@
 &check; How to use strings and how to manipulate them<br>
 &check; Scope of variables<br>
 
-# C - pointers_arrays_strings &#x1F449;
+# [C - pointers_arrays_strings](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings) &#x1F449;
 
 ## Learning Objectives :heavy_check_mark:
 
@@ -101,7 +101,7 @@
 &check; You are not allowed to publish any content of this project.<br>
 &check; Any form of plagiarism is strictly forbidden and will result in removal from the program.<br>
 
-# C - More pointers_arrays_strings :heavy_plus_sign: &#x1F449;
+# [C - More pointers_arrays_strings](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings) :heavy_plus_sign: &#x1F449;
 
 ## Learning Objectives :heavy_check_mark:
 
@@ -112,7 +112,7 @@
 &check; You are not allowed to publish any content of this project.<br>
 &check; Any form of plagiarism is strictly forbidden and will result in removal from the program.<br>
 
-# C - Recursion &#128260;
+# [C - Recursion](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x08-recursion) &#128260;
 
 ## Learning Objectives :heavy_check_mark:
 
@@ -123,7 +123,7 @@
 &check;In what situations you should implement recursion<br>
 &check;In what situations you shouldn’t implement recursion<br>
 
-# C - Static_libraries &#128526;
+# [C - Static_libraries](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x09-static_libraries) &#128526;
 
 ## Learning Objectives :heavy_check_mark:
 
@@ -132,7 +132,7 @@
 &check; What is a static library, how does it work, how to create one, and how to use it<br>
 &check; Basic usage of ar, ranlib, nm<br>
 
-# C - Argc_argv &#x1F374;
+# [C - Argc_argv](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x0A-argc_argv) &#x1F374;
 
 ## Learning Objectives :heavy_check_mark:
 
@@ -142,7 +142,7 @@
 &check; What are two prototypes of main that you know of, and in which case do you use one or the other<br>
 &check; How to use **attribute**((unused)) or (void) to compile functions with unused variables or parameters<br>
 
-# C - Malloc_free &#x1F4B0;
+# [C - Malloc_free](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x0B-malloc_free) &#x1F4B0;
 
 ## Learning Objectives :heavy_check_mark:
 
@@ -153,7 +153,7 @@
 &check; Why and when use malloc<br>
 &check; How to use valgrind to check for memory leak<br>
 
-# C - More malloc, free :heavy_plus_sign: &#x1F4B0;
+# [C - More malloc, free](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x0C-more_malloc_free) :heavy_plus_sign: &#x1F4B0;
 
 ## Learning Objectives :heavy_check_mark:
 
@@ -162,7 +162,7 @@
 &check; How to use the exit function<br>
 &check; What are the functions calloc and realloc from the standard library and how to use them<br>
 
-# C - Preprocessor &#x1F5A5;&#xFE0F;
+# [C - Preprocessor](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x0D-preprocessor) &#x1F5A5;&#xFE0F;
 
 ## Learning Objectives :heavy_check_mark:
 
@@ -172,7 +172,7 @@
 &check; What are the most common predefined macros<br>
 &check; How to include guard your header files<br>
 
-# C - Structures_typedef &#x1F3E2;
+# [C - Structures_typedef](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x0E-structures_typedef) &#x1F3E2;
 
 ## Learning Objectives :heavy_check_mark:
 
