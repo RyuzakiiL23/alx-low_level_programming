@@ -4,13 +4,13 @@
 
 ### In this project, I learned:
 
-&check; What are nested loops and how to use them
-&check; What is a function and how do you use functions
-&check; What is the difference between a declaration and a definition of a function
-&check; What is a prototype
-&check; Scope of variables
-&check; What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
-&check; What are header files and how to to use them with #include
+&check; What are nested loops and how to use them<br>
+&check; What is a function and how do you use functions<br>
+&check; What is the difference between a declaration and a definition of a function<br>
+&check; What is a prototype<br>
+&check; Scope of variables<br>
+&check; What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89<br>
+&check; What are header files and how to to use them with #include<br>
 
 ## Requierements :page_with_curl:
 
