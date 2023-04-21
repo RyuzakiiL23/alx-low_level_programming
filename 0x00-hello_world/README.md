@@ -4,7 +4,8 @@
 
 ### In this project, I learned:
 
-- [x] Why C programming is awesome.
+&check; Why C programming is awesome.
+
 - [x] Who invented C.
 - [x] Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds.
 - [x] What happens when you type gcc main.c.
