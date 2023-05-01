@@ -8,8 +8,6 @@ size_t listint_len(const listint_t *h)
 {
 	unsigned int n = 0;
 
-	if (h == NULL)
-		return (-1);
 	while (h != NULL)
 	{
 		n++;
