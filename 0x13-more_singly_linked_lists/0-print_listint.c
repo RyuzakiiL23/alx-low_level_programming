@@ -1,4 +1,9 @@
 #include "lists.h"
+/**
+* print_listint - prints nodes.
+* @h: pointer to nodes head.
+* Return: return number of nodes.
+*/
 
 size_t print_listint(const listint_t *h)
 {
@@ -11,6 +16,6 @@ size_t print_listint(const listint_t *h)
 		printf("%d\n", h->n);
 		n++;
 		h = h->next;
-  }
-  return(n);
+	}
+	return (n);
 }
