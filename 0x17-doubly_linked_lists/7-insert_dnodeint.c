@@ -7,47 +7,42 @@
  * @h: Pointer to a pointer to the head node.
  * @idx: Index of the list where the new node should be inserted.
  * @n: Value to be stored in the new node.
- *
  * Return: Address of the newly inserted node, or NULL on failure.
  */
 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
-	dlistint_t *current = *h;
-	dlistint_t *new_node = malloc(sizeof(dlistint_t));
+	dlistint_t  *next = NULL, *current = *h;
+	dlistint_t *new = malloc(sizeof(dlistint_t));
+	unsigned int count = 0;
 
-	if (new_node == NULL)
+	if (*h == NULL)
+	{
 		return (NULL);
-
-	new_node->n = n;
-
+	}
 	if (idx == 0)
 	{
-		new_node->prev = NULL;
-		new_node->next = *h;
-		if (*h != NULL)
-			(*h)->prev = new_node;
-		*h = new_node;
-		return (new_node);
+		new->prev = NULL;
+		new->n = n;
+		new->next = *h;
+		(*h)->prev = new;
+		*h = new;
+		return (*h);
 	}
-
-	unsigned int count = 0;
 	while (current != NULL)
 	{
-		if (count == idx - 1)
+		if (idx  == count + 1)
 		{
-			new_node->prev = current;
-			new_node->next = current->next;
-			if (current->next != NULL)
-				current->next->prev = new_node;
-			current->next = new_node;
-			return (new_node);
+			next = current->next;
+			current->next = new;
+			new->prev = current;
+			new->n = n;
+			new->next = next;
+			next->prev = new;
+			current = new;
 		}
 		count++;
 		current = current->next;
 	}
-
-	free(new_node); // Clean up in case insertion failed
-	return (NULL);
+	return (current);
 }
-
