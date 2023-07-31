@@ -180,3 +180,94 @@
 
 &check; What are structures, when, why and how to use them<br>
 &check; How to use typedef<br>
+
+# [C - Function Pointers[(https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x0F-function_pointers) :point_right: &#x1F50D;
+
+## Learning Objectives ✔️
+
+### General
+- What are function pointers and how to use them
+- What does a function pointer exactly hold
+- Where does a function pointer point to in the virtual memory
+
+# [C - Variadic Functions](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x10-variadic_functions)  :star:
+
+## Learning Objectives :heavy_check_mark:
+
+### General
+- What are variadic functions
+- How to use va_start, va_arg and va_end macros
+- Why and how to use the const type qualifier
+
+# [C - Singly Linked Lists](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x12-singly_linked_lists)  :link:
+
+## Learning Objectives  :heavy_check_mark:
+
+### General
+- When and why using linked lists vs arrays
+- How to build and use linked lists
+
+# [C - More Singly Linked Lists](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists)  :link:
+
+## Learning Objectives  :heavy_check_mark:
+
+### General
+- How to use linked lists
+- Start to look for the right source of information without too much help
+
+# [C - Bit manipultion](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x14-bit_manipulation) 🔧
+
+## Learning Objectives :heavy_check_mark:
+
+### In this project, I learned:
+
+&check; Look for the right source of information without too much help them<br>
+&check; How to manipulate bits and use bitwise operators them<br>
+
+
+# [C - Bit manipultion](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x15-file_io) 🔧
+
+## Learning Objectives :heavy_check_mark:
+
+### In this project, I learned:
+
+&check; Look for the right source of information online<br>
+&check; How to create, open, close, read and write files<br>
+&check; What are file descriptors<br>
+&check; What are the 3 standard file descriptors, what are their purpose and what are their POSIX names<br>
+&check; How to use the I/O system calls open, close, read and write<br>
+&check; What are and how to use the flags O_RDONLY, O_WRONLY, O_RDWR<br>
+&check; What are file permissions, and how to set them when creating a file with the open system call<br>
+&check; What is a system call<br>
+&check; What is the difference between a function and a system call<br>
+
+
+# [C - Structures_typedef](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x0E-structures_typedef) &#x1F3E2;
+
+## Learning Objectives :heavy_check_mark:
+
+### In this project, I learned:
+
+&check; What are structures, when, why and how to use them<br>
+&check; How to use typedef<br>
+
+# [C - Doubly Linked Lists](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x17-doubly_linked_lists) :link:
+
+## Learning Objectives  :heavy_check_mark:
+
+### General
+- What is a doubly linked list
+- How to use doubly linked lists
+- Start to look for the right source of information without too much help
+  
+
+# [C - Dynamic Libraries](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x18-dynamic_libraries)  :books:
+
+## Learning Objectives  :heavy_check_mark:
+
+### General
+- What is a dynamic library, how does it work, how to create one, and how to use it
+- What is the environment variable $LD_LIBRARY_PATH and how to use it
+- What are the differences between static and shared libraries
+- Basic usage of nm, ldd, ldconfig
+
