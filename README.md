@@ -181,7 +181,7 @@
 &check; What are structures, when, why and how to use them<br>
 &check; How to use typedef<br>
 
-# [C - Function Pointers[(https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x0F-function_pointers) :point_right: &#x1F50D;
+# [C - Function Pointers](https://github.com/RyuzakiiL23/alx-low_level_programming/tree/master/0x0F-function_pointers) :point_right: &#x1F50D;
 
 ## Learning Objectives ✔️
 
