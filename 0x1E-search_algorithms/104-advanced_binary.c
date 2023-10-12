@@ -1,20 +1,30 @@
 #include "search_algos.h"
 
 /**
- * binary_search - Searches for a value in a sorted array using binary search
+ * rec - Recursive function to find the first index where 'value' is located.
+ * @middle: The current index in the 'array' being checked.
+ * @array: Pointer to the array of integers.
+ * @value: The value to search for.
+ *
+ * Return: The first index where 'value' is located, or 'middle' if not found.
+ */
+int rec(int middle, int *array, int value)
+{
+	int new_mid = middle - 1;
+
+	if (array[middle - 1] == value)
+		return (rec(new_mid, array, value));
+	return (middle);
+}
+
+/**
+ * advanced_binary - Searches for a value in a sorted array using binary search
  * @array: Pointer to the first element of the array
  * @size: The size of the array
  * @value: The value to search for
  *
  * Return: If value is found, return the index; otherwise, return -1
  */
-int rec (int middle, int *array, int value)
-{
-	int new_mid = middle -1;
-	if (array[middle - 1] == value)
-		return (rec (new_mid , array, value));
-	return (middle);
-}
 int advanced_binary(int *array, size_t size, int value)
 {
 	int i;
