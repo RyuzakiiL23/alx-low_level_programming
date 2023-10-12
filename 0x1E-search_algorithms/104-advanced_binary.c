@@ -1,64 +1,77 @@
 #include "search_algos.h"
 
 /**
- * rec_search - searches for a value in an array of
- * integers using the Binary search algorithm
+ * rec - Recursive function to find the first index where 'value' is located.
+ * @middle: The current index in the 'array' being checked.
+ * @array: Pointer to the array of integers.
+ * @value: The value to search for.
  *
- *
- * @array: input array
- * @size: size of the array
- * @value: value to search in
- * Return: index of the number
+ * Return: The first index where 'value' is located, or 'middle' if not found.
  */
-int rec_search(int *array, size_t size, int value)
+int rec(int left, int middle, int *array, int value)
 {
-	size_t half = size / 2;
-	size_t i;
+	int new_mid = middle - 1;
+	int i = 0;
 
-	if (array == NULL || size == 0)
-		return (-1);
-
-	printf("Searching in array");
-
-	for (i = 0; i < size; i++)
-		printf("%s %d", (i == 0) ? ":" : ",", array[i]);
-
+	printf("Searching in array: ");
+	for (i = left; i <= middle; i++)
+		if (i == left)
+			printf("%d", array[i]);
+		else
+			printf(", %d", array[i]);
 	printf("\n");
 
-	if (half && size % 2 == 0)
-		half--;
-
-	if (value == array[half])
+	if (array[middle - 1] == value)
 	{
-		if (half > 0)
-			return (rec_search(array, half + 1, value));
-		return ((int)half);
+		printf("Searching in array: ");
+		printf("%d", array[new_mid]);
+		printf(", %d", array[new_mid]);
+		printf("\n");
+		return (rec(left, new_mid, array, value));
 	}
-
-	if (value < array[half])
-		return (rec_search(array, half + 1, value));
-
-	half++;
-	return (rec_search(array + half, size - half, value) + half);
+	return (middle);
 }
 
 /**
- * advanced_binary - calls to rec_search to return
- * the index of the number
+ * advanced_binary - Searches for a value in a sorted array using binary search
+ * @array: Pointer to the first element of the array
+ * @size: The size of the array
+ * @value: The value to search for
  *
- * @array: input array
- * @size: size of the array
- * @value: value to search in
- * Return: index of the number
+ * Return: If value is found, return the index; otherwise, return -1
  */
 int advanced_binary(int *array, size_t size, int value)
 {
-	int index;
+	int i;
+	int left = 0;
+	int right = (int)size - 1;
 
-	index = rec_search(array, size, value);
-
-	if (index >= 0 && array[index] != value)
+	if (array == NULL)
 		return (-1);
 
-	return (index);
+	while (left <= right)
+	{
+		int middle = (left + right) / 2;
+
+		printf("Searching in array: ");
+		for (i = left; i <= right; i++)
+			if (i == left)
+				printf("%d", array[i]);
+			else
+				printf(", %d", array[i]);
+		printf("\n");
+
+		if (array[middle] == value)
+		{
+			middle = rec(left, middle, array, value);
+			return (middle);
+		}
+
+		if (array[middle] < value)
+			left = middle + 1;
+
+		else
+			right = middle - 1;
+	}
+	return (-1);
 }
