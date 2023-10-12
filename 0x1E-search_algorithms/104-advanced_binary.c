@@ -8,12 +8,27 @@
  *
  * Return: The first index where 'value' is located, or 'middle' if not found.
  */
-int rec(int middle, int *array, int value)
+int rec(int left, int middle, int *array, int value)
 {
 	int new_mid = middle - 1;
+	int i = 0;
+
+	printf("Searching in array: ");
+	for (i = left; i <= middle; i++)
+		if (i == left)
+			printf("%d", array[i]);
+		else
+			printf(", %d", array[i]);
+	printf("\n");
 
 	if (array[middle - 1] == value)
-		return (rec(new_mid, array, value));
+	{
+		printf("Searching in array: ");
+		printf("%d", array[new_mid]);
+		printf(", %d", array[new_mid]);
+		printf("\n");
+		return (rec(left, new_mid, array, value));
+	}
 	return (middle);
 }
 
@@ -48,7 +63,7 @@ int advanced_binary(int *array, size_t size, int value)
 
 		if (array[middle] == value)
 		{
-			middle = rec(middle, array, value);
+			middle = rec(left, middle, array, value);
 			return (middle);
 		}
 
